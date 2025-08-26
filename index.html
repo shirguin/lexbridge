@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="date=no" />
+    <meta name="format-detection" content="address=no" />
+    <meta name="format-detection" content="email=no" />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Главная</title>
+</head>
+
+<body class="page-index">
+    <div class="page-wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <a href="./" class="header__logo">
+                        <img src="./img/logo.svg" width="150" height="45" alt="">
+                        <img src="./img/logo-mobile.svg" width="155" height="36" alt="">
+                    </a>
+
+                    <div class="language header__language">
+                        <a href="#" class="language__link" data-text-mobile="Ru">Русский</a>
+                        <a class="language__link is-current" data-text-mobile="En">English</a>
+                        <a href="#" class="language__link" data-text-mobile="Es">Español</a>
+                    </div>
+
+                    <a href="#" class="header__btn-login">Login</a>
+
+                    <button type="button" class="burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="container">
+                <div class="welcome">
+                    <h1 class="welcome__title">An online platform for easy filling out migration forms</h1>
+                    <p class="welcome__description">We’ll help you fill out the application form, identify your weaknesses, and provide guidance on how to improve them. Our goal is to increase your chances of approval on the first attempt.</p>
+                    <div class="welcome__feature">
+                        <div class="badge">
+                            <span>Filling in without errors</span>
+                            <svg class="icon">
+                                <use xlink:href="./img/sprite.svg#check"></use>
+                            </svg>
+                        </div>
+                        <div class="badge">
+                            <span>Checking the application form</span>
+                            <svg class="icon">
+                                <use xlink:href="./img/sprite.svg#check"></use>
+                            </svg>
+                        </div>
+                        <div class="badge">
+                            <span>AI tips</span>
+                            <svg class="icon">
+                                <use xlink:href="./img/sprite.svg#check"></use>
+                            </svg>
+                        </div>
+                        <div class="badge">
+                            <span>Without a lawyer and unnecessary expenses</span>
+                            <svg class="icon">
+                                <use xlink:href="./img/sprite.svg#check"></use>
+                            </svg>
+                        </div>
+                        <div class="badge">
+                            <span>Step-by-step interface</span>
+                            <svg class="icon">
+                                <use xlink:href="./img/sprite.svg#check"></use>
+                            </svg>
+                        </div>
+                        <div class="badge">
+                            <span>PDF generation in 1 click</span>
+                            <svg class="icon">
+                                <use xlink:href="./img/sprite.svg#check"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <a href="#" class="btn welcome__btn">Start</a>
+                </div>
+            </div>
+        </main>
+
+        <div class="mobile-menu">
+            <nav class="mobile-menu__nav">
+                <ul class="mobile-menu__list">
+                    <li class="mobile-menu__item">
+                        <a href="#" class="mobile-menu__link">Personal Account</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="#" class="mobile-menu__link">All Forms</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <script src="./js/build.js"></script>
+    </div>
+</body>
+
+</html>
